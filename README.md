@@ -1,12 +1,55 @@
-# React + Vite
+# 🛍️ Mini E-commerce React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de front-end para um mini e-commerce desenvolvido com **React**, com funcionalidades de:
 
-Currently, two official plugins are available:
+- 🛒 Adição de produtos ao carrinho (com persistência por 15 minutos)
+- ❤️ Favoritar produtos (com persistência por 15 minutos)
+- ❓ Enviar perguntas ao vendedor (com persistência por 15 minutos)
+- 🔁 Manutenção de dados entre recarregamentos de página, com expiração automática via `localStorage`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Carrinho
+- Adicione produtos ao carrinho.
+- Os itens permanecem salvos mesmo após recarregar a página (expiram em 15 minutos).
+
+### ❤️ Favoritos
+- Marque/desmarque produtos como favoritos.
+- Persistência no `localStorage` por 15 minutos.
+
+### ❓ Pergunte ao Vendedor
+- Usuário pode enviar perguntas simuladas.
+- As perguntas são salvas localmente e exibidas na interface.
+- As mensagens expiram automaticamente após 15 minutos.
+
+---
+## 🧠 Tecnologias Utilizadas
+
+- React
+- Context API
+- LocalStorage
+- JavaScript (ES6+)
+- Tailwind CSS (ou classes utilitárias)
+
+---
+
+## 🛠️ Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+Instale as dependências:
+
+npm install
+Rode o projeto localmente:
+
+npm run dev
+```
+
+### LICENÇA
+
+Este projeto está licenciado sob a licença MIT. Sinta-se livre para utilizar e modificar conforme necessário.
