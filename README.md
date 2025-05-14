@@ -40,8 +40,10 @@ Este é um projeto de front-end para um mini e-commerce desenvolvido com **React
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/pbt35/montink.git
+
+cd montink
+
 Instale as dependências:
 
 npm install
